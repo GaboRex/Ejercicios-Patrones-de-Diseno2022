@@ -4,14 +4,17 @@ import java.text.SimpleDateFormat;
 
 public class SingletonTipoDeCambio {
 
+    // 2) attribute del mismo tipo, private, static
     private static SingletonTipoDeCambio singletonTipoDeCambio;
-    private int cambioSus = 7;
-    private int cambioEuro = 9;
-    private int cambioBs = 1;
+    private final int cambioSus = 7;
+    private final int cambioEuro = 9;
+    private final int cambioBs = 1;
 
+    // 1) constructor private
     private SingletonTipoDeCambio(){
     }
 
+    // 3) method public static - para el acceso global
     public static SingletonTipoDeCambio getInstance(){
      if (singletonTipoDeCambio==null)
          singletonTipoDeCambio= new SingletonTipoDeCambio();

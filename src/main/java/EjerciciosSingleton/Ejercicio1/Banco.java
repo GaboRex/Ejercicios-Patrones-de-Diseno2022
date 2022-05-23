@@ -1,8 +1,8 @@
 package EjerciciosSingleton.Ejercicio1;
 
 public class Banco {
-    private Persona persona;
-    private String nombre;
+    private final Persona persona;
+    private final String nombre;
     public Banco(Persona persona, String nombre) {
         this.persona = persona;
         this.nombre = nombre;

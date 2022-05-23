@@ -1,7 +1,7 @@
 package EjerciciosSingleton.Ejercicio1;
 
 public class CasaDeCambio {
-    private Persona persona;
+    private final Persona persona;
 
     public CasaDeCambio(Persona persona) {
         this.persona = persona;

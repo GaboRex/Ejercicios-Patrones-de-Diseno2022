@@ -3,7 +3,7 @@ package EjerciciosSingleton.Ejercicio1;
 import java.text.SimpleDateFormat;
 
 public class LibreCambista {
-        private Persona persona;
+        private final Persona persona;
 
         public LibreCambista(Persona persona) {
                 this.persona = persona;
