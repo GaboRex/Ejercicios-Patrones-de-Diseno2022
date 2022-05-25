@@ -8,11 +8,11 @@ public class PizzaCarnivora extends BuilderPizza{
 
     @Override
     public void buildTipoDeMasa() {
-        this.pizza.setTipoDeMasa("Masa con borde de queso.");
+        this.pizza.setTipoDeMasa("Masa especial.");
     }
 
     @Override
     public void buildTipoDeQueso() {
-        this.pizza.setTipoDeQueso("Queso mozarella y extra cheddar.");
+        this.pizza.setTipoDeQueso("Queso mozarella");
     }
 }

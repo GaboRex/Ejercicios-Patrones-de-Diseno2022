@@ -8,7 +8,7 @@ public class PizzaClasica extends BuilderPizza {
 
     @Override
     public void buildTipoDeMasa() {
-        this.pizza.setTipoDeMasa("Masa especial con borde relleno queso cheddar");
+        this.pizza.setTipoDeMasa("Masa normal");
 
     }
 
