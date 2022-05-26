@@ -1,0 +1,12 @@
+Se tiene una expresion que se escribe en numeros naturales (1 -- 10) <<----- input
+se quiere interpretar estos en numero romanos << ----- output
+
+i.e1:
+
+1 2 3 4 5 6 7 8 9 10
+
+I II III IV V VI VII VIII IX X
+
+i.e2:
+
+1 5 ---->  I  V
