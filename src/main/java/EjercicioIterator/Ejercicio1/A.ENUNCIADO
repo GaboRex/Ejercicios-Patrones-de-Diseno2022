@@ -1,0 +1,9 @@
+Se tienen 4 casas importadoras de automoviles, donde al automovil tiene (costo, modelo, nroDeAsiento, tipo -4x4, etc),
+cada una de estas casas maneja su lista de automoviles en diferentes tipos de objetos.
+
+importadora1 -> array - Automovil []
+importadora2 -> list
+importadora3 -> vector
+importadora4 -> stack
+
+La aduana requiere guardar los objetos de automoviles en un objeto de tipo mapa (añadir en el while).
