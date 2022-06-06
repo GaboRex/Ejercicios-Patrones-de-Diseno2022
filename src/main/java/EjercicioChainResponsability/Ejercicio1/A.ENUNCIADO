@@ -1,0 +1,16 @@
+Se tiene un array[] que contiene personas(ci, nombre, edad), y se tienen 3 algoritmos de ordenamiento para poder
+ordenar las personas ascendentemente por edad, dependiendo a la cantidad de datos en el array se desea utilizar
+uno de los algoritmos.
+
+- Arrays con un máximo de 20 personas usar algoritmo1
+- Arrays con un máximo de 50 personas usar algoritmo2
+- Arrays con más de 50 personas usar el algoritmo3
+
+---------------------------------------------------------------------------------------------
+PERSONAS(CI,nombre, edad)
+algoritmo 1
+algoritmo2
+algoritmo3
+
+Ihandler
+ManagerHandler
