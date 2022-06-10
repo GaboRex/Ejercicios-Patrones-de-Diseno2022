@@ -15,6 +15,9 @@ public class Cliente {
         //tiendaRopa.setEstacion(new Primavera());
         //tiendaRopa.setEstacion(new Verano());
 
+        /*
+        Para poder usar o hacer correr las diferentes estaciones deberiamos descomentar la estacion que queramos una a la vez
+         */
         tiendaRopa.iniciarEstacion();
 
 
