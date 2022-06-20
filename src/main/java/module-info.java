@@ -1,4 +1,4 @@
-module com.example.ejerciciospatronesdediseno2022 {
+module com.example.ejerciciospatronesdediseno {
     requires javafx.controls;
     requires javafx.fxml;
 
