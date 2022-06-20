@@ -10,13 +10,13 @@ public class Refri implements IEmpresa2{
     }
 
     @Override
-    public void showCosto() {
+    public void mostrarCosto() {
         System.out.println("\n ***************************************************************************************************************************************************************************\n");
         System.out.println("El precio del refrigerador es de " + precio + " Bs");
     }
 
     @Override
-    public void showTiempoDeGarantia() {
+    public void mostrarGarantia() {
         System.out.println("El tiempo de garantia del refrigerador es de " + tiempoDeGarantia + " anios");
         System.out.println("\n ***************************************************************************************************************************************************************************\n");
     }

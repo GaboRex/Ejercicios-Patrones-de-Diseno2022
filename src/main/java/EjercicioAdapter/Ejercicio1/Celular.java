@@ -10,13 +10,13 @@ public class Celular implements IEmpresa1{
     }
 
     @Override
-    public void showPrecio() {
+    public void mostrarPrecio() {
         System.out.println("\n ***************************************************************************************************************************************************************************\n");
         System.out.println("El precio del celular es de " + precio + " Bs");
     }
 
     @Override
-    public void showTiempo() {
+    public void mostrarTiempo() {
         System.out.println("El tiempo de vida del celular es de " + tiempoDeVida + " anios");
         System.out.println("\n ***************************************************************************************************************************************************************************\n");
     }

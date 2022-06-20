@@ -4,16 +4,19 @@ public class Artefact implements IEmpresa1{
     private IEmpresa2 artefact;
 
     public Artefact(IEmpresa2 artefacto) {
+
         this.artefact = artefacto;
     }
 
     @Override
-    public void showPrecio() {
-        artefact.showCosto();
+    public void mostrarPrecio() {
+
+        artefact.mostrarCosto();
     }
 
     @Override
-    public void showTiempo() {
-        artefact.showTiempoDeGarantia();
+    public void mostrarTiempo() {
+
+        artefact.mostrarGarantia();
     }
 }
