@@ -13,11 +13,11 @@ public class Computadora extends Component {
 
     @Override
     public void add(Component component) {
-        //TODO
+
     }
 
     @Override
     public void remove(Component component) {
-        //TODO
+
     }
 }
